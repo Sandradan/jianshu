@@ -60,7 +60,7 @@
 
 `valueOf`
     Returns the primitive value of the array. Overrides the Object.valueOf method.
-##循环迭代
+## 循环迭代
 `filter`
     对数组中的每一个元素调用参数中指定的过滤函数，并将对于过滤函数返回值为true的那些数组元素集合为新的数组返回。
 
@@ -75,7 +75,7 @@
 
 `some`
  如果数组中至少有一个元素满足参数函数的测试，则返回true。
-##总结
+## 总结
 改变原数组的方法：pop()、push()、reverse()、shift()、sort()、splice()、unshift()
 
 不改变原数组的方法：concat()、join()、slice()、toString()

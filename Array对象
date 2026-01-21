@@ -88,7 +88,8 @@
 
 ## 实现add(1)(2)(3)
 
-\`\`\` js
+\`\`\` 
+js
 function curryFn(...args){
     return function(){
         if(arguments.length!==0){
@@ -101,7 +102,8 @@ function curryFn(...args){
 
 ## 实现有并行限制的promise调度器
 
-\`\`\` js
+\`\`\` 
+js
 class Scheduler {
     constructor(limit) {
         this.task = []
